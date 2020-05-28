@@ -41,8 +41,8 @@ Tips for setting up your environment can be found [here](https://classroom.udaci
 
 1. The effect of the P, I, D components
 
-    * P component focus on current displacement of err. 
-    * D component aims at current change/derivitive of err.
+    * P component focus on current displacement of err. Therefore, put Kp too large will cause overshoot, put Kp too small will lose responsible time.
+    * D component aims at current change/derivitive of err, which can help the dynamic response and stability of the system.
     * I component is responsible for getting rid of err caused by the past (e.g. system bias).
 
 2. How the final hyperparameter
