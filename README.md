@@ -41,17 +41,17 @@ Tips for setting up your environment can be found [here](https://classroom.udaci
 
 1. The effect of the P, I, D components
 
-    P component focus on current displacement of err. 
-    D component aims at current change/derivitive of err.
-    I component is responsible for getting rid of err caused by the past (e.g. system bias).
+    * P component focus on current displacement of err. 
+    * D component aims at current change/derivitive of err.
+    * I component is responsible for getting rid of err caused by the past (e.g. system bias).
 
 2. How the final hyperparameter
     
     It is done basically starting with some reference values from colleges.
-    After some manuell fine tuning, the parameters are set.
-    I don't know how to restart the simulator directly in for loop, otherwise it will be better to use twiddle.
+    After some manuell fine tuning, the parameters are chosen.
+    I don't know how to restart the simulator directly in the for loop, otherwise it will be better to use twiddle.
 
 3. Some thoughts
 
     The control effect of PID is not as expected, because the response time of controller is too long.
-    If I set the speed up to 100, then at each turn, the car will rush out of the track, which needs to be corrected by other algorithem, e.g. mpc.
+    If I set the speed up to 100, then at each turn, the car will rush out of the track, which needs to be corrected by other advanced algorithem, e.g. mpc.
